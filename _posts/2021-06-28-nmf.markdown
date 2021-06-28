@@ -8,7 +8,7 @@ author: "Davide Bacciu, Luigi Di Sotto"
 authors: "<strong>Davide Bacciu, Luigi Di Sotto</strong>"
 venue: "Proceedings of the 18th International Conference of the Italian Association for Artificial Intelligence (AIIA 2019), Springer, 2019"
 arxiv: https://arxiv.org/abs/1909.03287
-slides: /pdfs/jcdl2019.pdf
+slides:
 code:
 ---
 The paper discusses a pooling mechanism to induce subsampling in graph structured data and introduces it as a component of a graph convolutional neural network. The pooling mechanism builds on the Non-Negative Matrix Factorization (NMF) of a matrix representing node adjacency and node similarity as adaptively obtained through the vertices embedding learned by the model. Such mechanism is applied to obtain an incrementally coarser graph where nodes are adaptively pooled into communities based on the outcomes of the non-negative factorization. The empirical analysis on graph classification benchmarks shows how such coarsening process yields significant improvements in the predictive performance of the model with respect to its non-pooled counterpart.
